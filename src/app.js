@@ -20,5 +20,4 @@ connectDB()
   });
 app.get("/", (req, res) => {
   res.json("Connected");
-  console.log(error);
 });
